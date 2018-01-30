@@ -9,7 +9,7 @@ document.getElementById("inputButtonType").addEventListener('click', function ()
 });
 //search by price
 document.getElementById("inputButtonPrice").addEventListener('click', function () {
-    processSearch(document.getElementById('inputPrice').value);
+    processSearchPrice(document.getElementById('inputPrice').value);
 });
 
 
